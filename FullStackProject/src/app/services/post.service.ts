@@ -15,7 +15,10 @@ export class PostService {
 
   constructor() { }
 
-
+  getAllPosts()
+  {
+    return this.posts
+  }
 
 
 }
